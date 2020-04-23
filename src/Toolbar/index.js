@@ -1,13 +1,16 @@
 import React from "react";
-import Mapper from "../mapper";
+
+// import Menu from "../components/Menu";
+
 import css from "./style.module.css";
 
-const Toolbar = () => (
+// import Menu from "../components/card-list";
+
+const Toolbar = (props) => (
   <header className={css.Toolbar}>
+    {/* <Menu /> */}
     <div>...</div>
-    <nav>
-      <Mapper />
-    </nav>
+    <nav>{/* <Menu todos={this.state.todos} /> */}</nav>
   </header>
 );
 export default Toolbar;
